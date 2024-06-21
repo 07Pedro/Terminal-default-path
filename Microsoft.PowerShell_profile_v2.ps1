@@ -12,11 +12,11 @@ function Set-Directory {
     switch ($day) {
         'Monday' {
             if ($hour -eq 0 -and $minute -ge 0 -and $minute -lt 0) {
-                # Set-Location 'Your\Desired\Path'
+                Set-Location ''
             } elseif ($hour -eq 0 -and $minute -ge 0 -and $minute -lt 0) {
-                # Set-Location 'Your\Desired\Path\For\Monday\Noon'
+                Set-Location ''
             } else {
-                # Set-Location 'Your\Desired\Path'
+                Set-Location ''
             }
         }
         'Tuesday' {
@@ -35,7 +35,7 @@ function Set-Directory {
             Set-Location ''
         }
         'Sunday' {
-            Set-Location 'C:\Users\e3ccep'
+            Set-Location ''
         }
     }
 }
