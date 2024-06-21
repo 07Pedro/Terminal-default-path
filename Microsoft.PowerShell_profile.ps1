@@ -12,25 +12,25 @@ function Set-Directory {
 
     switch ($day) {
         'Monday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Tuesday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Wednesday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Thursday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Friday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Saturday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
         'Sunday' {
-            Set-Location ''
+            Set-Location 'C:\Your\Desired\Path'
         }
     }
 }
